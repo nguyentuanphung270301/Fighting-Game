@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighting Game</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e7d0afe620.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="title-game">
+            <h2>Fighting Game</h2>
+            <i class="fa-solid btn-play fa-circle-play"></i>
+        </div>
+    </div>
+    <!--Red container div-->
+    <div class="gameplay">
+        <!--Smaller red container div-->
+        <div class="bar-gameplay">
+            <!--Player health-->
+            <div class="bar-gameplay__player">
+                <div class="bar-gameplay__player-health"></div>
+                <div class="bar-gameplay__player-full-health"></div>
+            </div>
+            <!--Timer-->
+            <div class="timer"></div>
+            <!--enemy health-->
+            <div class="bar-gameplay__enemy">
+                <div class="bar-gameplay__enemy-health"></div>
+                <div class="bar-gameplay__enemy-full-health"></div>
+            </div>
+        </div>
+        <div class="result-text">
+            Tie
+        </div>
+        <div class="restart">
+            <i class="fa-solid btn-replay fa-rotate-right"></i>
+        </div>
+        
+
+        <canvas></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/utils.js"></script>
+    <script src="./assets/js/classes.js"></script>
+    <script src="./index.js"></script>
+    <script>
+        
+
+
+  
+    </script>
+</body>
+</html>
